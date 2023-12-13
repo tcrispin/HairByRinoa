@@ -1,0 +1,122 @@
+/********f************
+    
+    Project 4
+    Name: TJ Crispin
+    Date: 12/13/2023
+    Description: Project 4
+
+********************/
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('Fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('images/HairStudio.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+#contactForm {
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+h1 {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav a:hover {
+    color: #ff1493;
+    font-size: 20px; 
+}
+
+#footerlinks a{
+    font-size: 10px;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    #footerlinks a {
+        font-size: 8px;
+    }
+}
